@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Unbiasify</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body style="width: 250px; height: 400px; overflow-y: auto;">
+    <button id="scanPageButton">Scan the page for baised contents</button>
+    <div style="width:100%" id="biasedMetrics" style="padding-bottom: 10px;"></div>
+    </br>
+    <div id="content">
+      <h3>Original Text</h3>
+      <p id="original-text">Loading...</p>
+      <h3>Suggested Text</h3>
+      <p id="suggested-text">Loading...</p>
+    </div>
+    </br>
+    <button id="listenBiasInSpeechButton">Start listening</button>
+    <div style="width:100%" id="speechBiasedMetrics" style="padding-bottom: 10px;"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
