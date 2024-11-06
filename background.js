@@ -1,8 +1,8 @@
+import config from './config.js';
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    
     if (request.action === "unbiasText") {
 
-        const apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBuEoKi-vBZ3tc6uGm9u32bQgetlGYn6Bg';
+        const apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${config.geminiApiKey}';
         
         fetch(apiUrl, {
             method: 'POST',
