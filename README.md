@@ -7,7 +7,7 @@ Open Source LLM model (Gemini 1.5), Python, Javascipt, HTML/CSS, Flair, ML (TARS
 Procedure to Run&Test:
 1. Clone the repository onto your local setup.
 2. Make sure all the dependencies are installed. You can refer https://github.com/flairNLP/flair/blob/master/resources/docs/TUTORIAL_10_TRAINING_ZERO_SHOT_MODEL.md for installing dependencies.
-3. Load up the chrome extension on your browser.
+3. Load up the chrome extension on your browser. Make sure you have Gemini 1.5 API Key created and paste it in background.js file.
 4. Highlight over any sentence and click on the extension to view a neutral bias-free sentence.
 
 What's next:
